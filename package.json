@@ -1,0 +1,35 @@
+{
+    "name": "@fforw/simple-starter",
+    "version": "0.0.1",
+    "author": "Sven Helmberger",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "simplex-noise": "^4.0.3"
+    },
+    "devDependencies": {
+        "@power-assert/runtime": "^0.3.2",
+        "@types/node": "^26.6.5",
+        "rollup-plugin-power-assert": "^0.2.2",
+        "typescript": "^7.0.2",
+        "vite": "^8.3.4",
+        "vite-plugin-glsl": "^1.6.2",
+        "vitest": "^5.0.4"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "build-dev": "tsc && vite build --mode development",
+        "preview": "vite preview --outDir docs",
+        "typecheck": "tsc",
+        "test": "vitest run",
+        "test:watch": "vitest"
+    },
+    "packageManager": "pnpm@12.8.1",
+    "type": "module",
+
+    "ff-medium": {
+        "category": "",
+        "topics": [],
+        "shot": { "delay": 0, "click": false }
+    }
+}
